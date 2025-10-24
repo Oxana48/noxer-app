@@ -2,6 +2,7 @@ import { Banner } from "../../components/Banner/Banner";
 import { ProductGrid } from "../../components/ProductGrid/ProductGrid";
 import { Categories } from "../../components/Categories/Categories";
 import { useProducts } from "../../hooks/useProducts";
+import "./MainPage.css";
 
 const MainPage = () => {
   const { products, categories, loading, error } = useProducts();
@@ -28,7 +29,7 @@ const MainPage = () => {
     <div className="app">
       <Banner />
 
-      <div className="main-content">
+      <div className="main__content">
         <Categories categories={categories} />
         <ProductGrid products={products} />
       </div>

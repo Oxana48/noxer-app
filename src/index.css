@@ -10,11 +10,10 @@
   --text-color-grey: #292928;
   --text-color-dark-grey: #2929284d;
   --text-color-light-grey: #b5b5b5;
-  --text-footer: #8B8B8B;
-  --bg-footer: #8B8B8B1A;
+  --text-footer: #8b8b8b;
+  --bg-footer: #8b8b8b1a;
   --border-shadow: #3030300d;
-  --red: #F24131;
-
+  --red: #f24131;
 }
 
 body {
