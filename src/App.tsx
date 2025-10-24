@@ -2,6 +2,7 @@ import Layout from "./components/Layout/Layout";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router";
 import MainPage from "./pages/MainPage/MainPage";
+import "./index.css";
 
 function App() {
   return (
