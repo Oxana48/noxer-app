@@ -14,7 +14,9 @@ export const Categories = ({ categories }: CategoriesProps) => {
         category.Category_Image &&
         category.Category_Image.trim() !== "" &&
         !category.Category_Image.includes("google.com/Portrait") &&
-        /^[а-яё][а-яё0-9\s\-]*$/i.test(category.Category_Name)
+        /^[а-яё][а-яё0-9\s\-]*$/i.test(category.Category_Name) &&
+        !category.Category_Name.match(/(тест|test|\d{3,})/i) &&
+        !/[А-ЯЁA-Z]/.test(category.Category_Name.slice(1))
     )
     .slice(0, 12);
 

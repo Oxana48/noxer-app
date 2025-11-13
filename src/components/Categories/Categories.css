@@ -12,6 +12,7 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
   display: flex;
+  justify-content: space-between;
   gap: 5px;
 }
 
